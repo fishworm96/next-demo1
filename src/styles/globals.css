@@ -1,5 +1,14 @@
 @tailwind base;
 
+@layer base {
+  div {
+    color: red
+  }
+  .header {
+    @apply flex justify-center align-middle w-screen h-20 bg-teal-200 text-3xl font-bold underline text-amber-300
+  }
+}
+
 @tailwind components;
 
 @layer components {
